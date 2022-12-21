@@ -15,10 +15,36 @@
     margin-top: 36px;
 }
 
+a:link {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+  }
+  
+  a:hover {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
 .header-list {
+    color: #E5E7EB;
+    font-size: 18px;
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    gap: 12px;
 }
 
 body {
