@@ -163,3 +163,46 @@ body {
     font-weight: bolder;
     text-align: right;
 }
+
+.bottom {
+    background-color: #F9FAF8;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call {
+    height: 120px;
+    width: 950px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call-header {
+    color: #F9FAF8;
+    margin-bottom: 0px;
+}
+
+.call-par {
+    color: #F9FAF8;
+    margin-top: 8px;
+}
+
+.call-button {
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    color: #F9FAF8;
+    width: 116px;
+    height: 36px;
+    font-weight: bold;
+}
