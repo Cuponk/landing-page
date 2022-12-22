@@ -85,3 +85,52 @@ body {
     height: auto;
     width: 550px;
 }
+
+.middle {
+    background-color: #F9FAF8;
+    height: 500px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+.info {
+    height: 150px;
+    width: 150px;
+    border: 3.5px solid #3882f6;
+    border-radius: 8px;
+}
+
+.mid-top {
+    display: flex;
+    justify-content: center;
+}
+.describe-text {
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-text {
+    width: 150px;
+    height: 48px;
+    font-size: 16px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info-head {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
