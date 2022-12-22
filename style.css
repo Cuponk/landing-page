@@ -206,3 +206,16 @@ body {
     height: 36px;
     font-weight: bold;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    font-weight: light;
+    font-size: 12px;
+}
